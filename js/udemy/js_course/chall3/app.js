@@ -21,13 +21,13 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
     var dice = Math.floor(Math.random() * 6) + 1;
     var dice2 = Math.floor(Math.random() * 6) + 1;
     
-    if (dice === lastDice && lastDice === 6) {
+    if (dice === lastDice && lastDice === 6 || (dice === 6 && dice2 === 6)) {
         scores[activePlayer] = 0;
         document.getElementById("score-" + activePlayer).textContent = 0;
         nextPlayer();
         return;
     }
-    lastDice = dice;
+    lastDice = dice2;
     
     // Display the result
     var diceDom = document.querySelector(".dice");

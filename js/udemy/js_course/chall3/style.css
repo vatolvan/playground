@@ -146,7 +146,10 @@ i {
     left: 50%;
     top: 20px;
     transform: translateX(-50%);
+    text-align: center;
 }
+
+.score-box:focus { outline: none;}
 
 .dice {
     position: absolute;
