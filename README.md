@@ -1,6 +1,6 @@
 # code
 
-Small, not so small, useful, not so useful and so on
+Code related to online courses, very early stage hobby projects and just random stuff.
 
 # Layout
 
@@ -8,6 +8,4 @@ cpp   - C++ code samples & projects
 
 scala - Scala code samples & projects
 
-misc  - Code that is not easily categorized to above folders
-
-js - Some javascript stuff
+js - Javascript 
