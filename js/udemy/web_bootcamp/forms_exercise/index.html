@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Register page </title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+
+            <p>
+                <label for="firstName">First Name:</label>
+                <input name="firstName" id="firstName" type="text" placeholder="John" required>
+
+                <label for="lastName">Last name:</label>
+                <input name="lastName" id="lastName" type="text" placeholder="Smith" required>
+            </p>
+            
+            <p>
+                <label for="Male">Male</label>
+                <input value="male" name="gender" type="radio" id="Male" required>
+                
+                <label for="Female">Female</label>
+                <input value="female" name="gender" type="radio" id="Female" required>
+                
+                <label for="Other">Other</label>
+                <input value="other" name="gender" type="radio" id="Other" required>
+        
+            </p>
+            
+            <p>
+                <label for="email">Email:</label>
+                <input name="email" id="email" type="email" placeholder="your email" placeholder="your email" required>
+                
+                <label for="password">Password:</label>
+                <input name="password" id="password" type="password" placeholder="your password"  minlength="5" maxlength="10" required>
+            </p>
+            
+            <p>
+                <label for="birthday">Birthday</label>
+                <select name="birthday_month">
+                    <option value="0">Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                
+                </select>
+                
+                <select name="birthday_day">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                
+                <select name="birthday_year">
+                    <option>Year</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+            
+            </p>
+            
+            <p>
+                <label for="toc">I agree to the terms and conditions</label>
+                <input id="toc" name="toc" type="checkbox">
+            </p>
+            
+            <button>Submit</button>
+        </form>
+    
+    </body>
+
+</html>
