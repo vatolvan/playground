@@ -1,6 +1,5 @@
 #include "gaussian_gp.hpp"
 #include <iostream>
-#include "matrixUtil.hpp"
 #include <Eigen/Dense>
 
 int main()

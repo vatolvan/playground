@@ -1,7 +1,6 @@
 #include "gaussian_gp.hpp"
 #include <iostream>
 #include <assert.h>
-#include "matrixUtil.hpp"
 #include "Eigen/Dense"
 
 namespace gp {
