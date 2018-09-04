@@ -1,0 +1,1 @@
+document.querySelector("#first").style.background = "pink";
