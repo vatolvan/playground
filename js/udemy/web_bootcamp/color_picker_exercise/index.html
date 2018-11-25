@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title></title>
+
+	<style type="text/css">
+
+		body {
+			background: #232323;
+		}
+		
+		span {
+			padding: 0 10px;
+		}
+
+		.selected {
+			border: 1px solid black;
+		}
+
+		td {
+			border: 1px solid black;
+			padding: 10px;
+		}
+
+		td {
+			height: 100px;
+			width: 100px;
+			margin: 20px;
+		}
+
+		.square {
+			width: 30%;
+			background: purple;
+			padding-bottom: 30%;
+			float: left;
+			margin: 1.667%;
+		}
+
+		#colors {
+			max-width: 600px;
+			margin: 0 auto;
+		}
+
+		#buttons {
+			background: white;
+			width: 100%;
+		}
+
+		#rgb-panel {
+			width: 100%;
+			margin: 0 0;
+		}
+
+	</style>
+</head>
+<body>
+	<h1 id="rgb-panel">The great <span id="color-to-guess">RGB</span>guessing game</h1>	
+
+	<div id="buttons">
+		<span id="new-game">New colors</span><span id="succesful-pick"></span><span id="easy-mode">Easy</span><span id="hard-mode">Hard</span>
+	</div>
+
+	<div id="colors">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		
+	</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
