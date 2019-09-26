@@ -5,11 +5,15 @@ using UnityEngine;
 public class MoveBomb : MonoBehaviour
 {
     public float speed;
+    private Rigidbody _rigidBody;
+
+    private void Start()
+    {
+        _rigidBody = GetComponent<Rigidbody>();
+    }
 
     public void FixedUpdate()
     {
-        Rigidbody rigidBody = GetComponent<Rigidbody>();
-
-        rigidBody.position = rigidBody.position + new Vector3(0, -1, 0) * Time.deltaTime * speed;
+        _rigidBody.position = _rigidBody.position + new Vector3(0, -1, 0) * Time.deltaTime * speed;
     }
 }
